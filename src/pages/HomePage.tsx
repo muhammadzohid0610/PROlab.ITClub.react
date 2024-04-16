@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomePage() {
   return (
-    <div>HomePage  Abubakir</div>
+    <div>HomePage  muhammadas</div>
   )
 }
 
