@@ -1,8 +1,8 @@
 import React from 'react';
 
-const App: React.FC = () => (
+const Css: React.FC = () => (
 	<h1>hellodedfrfre</h1>
 
 );
 
-export default App;
+export default Css;
