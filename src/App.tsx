@@ -5,7 +5,7 @@ import React from 'react';
 // import HomePage from './pages/HomePage';
 
 const App: React.FC = () => (
-	<h1>hellodedfrfre</h1>
+	<h1>hellodedfrfrefrfrfr</h1>
 );
 
 export default App;
