@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Javascript() {
+const Javascript: React.FC = () => {
   return (
-	<div>Javascript</div>
-  )
+    <div>Javascript</div>
+  );
 }
 
-export default Javascript
+export default Javascript;

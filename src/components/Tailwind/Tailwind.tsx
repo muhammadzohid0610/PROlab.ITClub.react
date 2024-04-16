@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Tailwind() {
+const Tailwind: React.FC = () => {
   return (
-	<div>Tailwind</div>
-  )
+    <div>Tailwind</div>
+  );
 }
 
-export default Tailwind
+export default Tailwind;

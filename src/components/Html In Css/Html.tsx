@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Html() {
+const Html: React.FC = () => {
   return (
-	<div>Html</div>
-  )
+    <div>Html</div>
+  );
 }
 
-export default Html
+export default Html;

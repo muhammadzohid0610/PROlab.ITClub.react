@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Games() {
+const Games: React.FC = () => {
   return (
-	<div>Games</div>
-  )
+    <div>Games</div>
+  );
 }
 
-export default Games
+export default Games;

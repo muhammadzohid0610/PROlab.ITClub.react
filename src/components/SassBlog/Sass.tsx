@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Sass() {
+const Sass: React.FC = () => {
   return (
-	<div>Sass</div>
-  )
+    <div>Sass</div>
+  );
 }
 
-export default Sass
+export default Sass;

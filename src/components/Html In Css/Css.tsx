@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Css() {
+const Css: React.FC = () => {
   return (
-	<div>Css</div>
-  )
+    <h1>css</h1>
+  );
 }
 
-export default Css
+export default Css;
