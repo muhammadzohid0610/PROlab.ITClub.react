@@ -4,7 +4,7 @@ function HomePage() {
 
 
   return (
-    <div>HomePage sasasasasas</div>
+    <div>HomePage </div>
   )
 }
 
