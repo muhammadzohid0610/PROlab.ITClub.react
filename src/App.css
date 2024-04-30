@@ -1,0 +1,136 @@
+.goog-te-gadget-simple {
+  background: yellow;
+  display: flex;
+  gap: 10px;
+}
+.VIpgJd-ZVi9od-xl07Ob-lTBxedP {
+  display: flex;
+}
+
+.middle {
+  display: none;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  display: none;
+}
+
+select {
+  color: var(--black);
+  font-weight: 700;
+}
+
+option {
+  color: var(--black);
+  background: var(--white);
+}
+
+.goog-te-combo {
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  background: transparent;
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #014d90;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #014d90;
+  border-radius: 10px;
+}
+
+:root {
+  --succes: #014d90;
+  --succes2: #003562;
+  --succes3: #073c7e;
+  --succesBg: #014d9046;
+  --white: #ffffffff;
+  --gray: rgb(67, 67, 67);
+  --black: #212121;
+  --blacker: #000;
+  --logo: #073c7e;
+}
+
+.main.mainDark {
+  --white: #212121;
+  --black: #ffffffff;
+  --logo: #ffffff;
+  --gray: rgb(150, 150, 150);
+}
+
+.main.redMode {
+  --succes: red;
+  --succes2: rgb(219, 30, 30);
+  --succes3: rgb(188, 15, 15);
+  --succesBg: rgba(212, 77, 77, 0.27);
+}
+
+.main.greenMode {
+  --succes: green;
+  --succes2: rgb(33, 111, 33);
+  --succes3: rgb(24, 106, 24);
+  --succesBg: rgba(0, 128, 0, 0.342);
+}
+
+.main.yellowMode {
+  --succes: #9d159d;
+  --succes2: #801580;
+  --succes3: #652a65;
+  --succesBg: #9d159d54;
+}
+
+.navbar {
+  box-shadow: 0 0 10px var(--succes), 0 0 10px var(--logo);
+}
+
+.goog-te-gadget {
+  border: 1px solid var(--black);
+  padding: 10px 4px;
+  border-radius: 5px;
+}
+.chooseAvatar::before {
+  content: "+";
+  width: 100%;
+  height: 125%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  cursor: pointer;
+  color: var(--black);
+  background: var(--succes);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10000;
+}
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none;
+  background: transparent;
+}
+
+body {
+  position: relative;
+  top: 0 !important;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none;
+}
+
+.VIpgJd-suEOdc {
+  display: none !important;
+}
+
+.home_page {
+  background: linear-gradient(to right, var(--white), var(--succes));
+}
