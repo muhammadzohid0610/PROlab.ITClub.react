@@ -18,7 +18,7 @@ const Home: FC = () => {
           >
             <span className="text-[22px] font-[700]  text-[--succes] xl:text-[38px]">
               PROlab.ITClub
-            </span>{" "}
+            </span>
             <span className="xl:text-[30px] text-[20px] font-[600]">
               - Programming courses
             </span>
@@ -36,7 +36,7 @@ const Home: FC = () => {
           </motion.p>
 
           <Link to="/topics">
-            <button className="border-2 w-max transition duration-300 hover:bg-[--black] hover:text-[--white] px-[60px] py-[5px] mt-[20px] rounded-[10px] border-[--black] text-[--black]">
+            <button className="border-2 w-max transition duration-300 hover:bg-[--succes] hover:text-[--black] px-[60px] py-[5px] mt-[20px] rounded-[10px] border-[--black] text-[--black]">
               Topics
             </button>
           </Link>

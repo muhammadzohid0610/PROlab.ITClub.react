@@ -4,13 +4,16 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
-import Topics from "./pages/Topics";
+import Topics from "./pages/topics/Topics";
 import Tests from "./pages/Tests";
 import Games from "./pages/Games";
 import "./App.css";
 import Header from "./components/header/Header";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import All from "./pages/topics/All";
+import Front from "./pages/topics/Front";
+import Back from "./pages/topics/Back";
 
 const App: React.FC = () => {
   const [dark, setDark] = useState<boolean>(() => {
@@ -72,7 +75,13 @@ const App: React.FC = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/aboutUs" element={<AboutUs />} />
-          <Route path="/topics" element={<Topics />} />
+
+          <Route path="/topics" element={<Topics />}>
+            <Route index path="all" element={<All />} />
+            <Route path="frontend" element={<Front />} />
+            <Route path="backend" element={<Back />} />
+          </Route>
+
           <Route path="/tests" element={<Tests />} />
           <Route path="/games" element={<Games />} />
           <Route path="/login" element={<Login />} />

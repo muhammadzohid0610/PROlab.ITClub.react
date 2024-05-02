@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 // data link
 const navData = [
   { name: "Home", path: "/", icon: <AiFillHome /> },
-  { name: "Topics", path: "/topics", icon: <MdTopic /> },
+  { name: "Topics", path: "/topics/all", icon: <MdTopic /> },
   { name: "Tests", path: "/tests", icon: <RiCodeBoxFill /> },
   { name: "Games", path: "/games", icon: <FaGamepad /> },
   { name: "About us", path: "/aboutUs", icon: <FaUserGroup /> },
@@ -19,7 +19,7 @@ const navData = [
 
 const Navbar: FC = () => {
   return (
-    <nav className="bg-[--succesBg] navbar backdrop-blur-[5px] fixed w-full bottom-0 flex items-center justify-between py-[10px] px-[20px] text-[25px]  mn:text-[28px] xl:top-[27%]  xl:px-[0px] xl:py-[30px] xl:rounded-[35px] xl:h-[390px] xl:right-[20px] xl:w-max ">
+    <nav className="bg-[--succesBg] z-50 navbar backdrop-blur-[5px] fixed w-full bottom-0 flex items-center justify-between py-[10px] px-[20px] text-[25px]  mn:text-[28px] xl:top-[27%]  xl:px-[0px] xl:py-[30px] xl:rounded-[35px] xl:h-[390px] xl:right-[20px] xl:w-max ">
       <div className="container mx-auto flex justify-between xl:flex-col h-full">
         {navData.map((item, index) => (
           <NavLink
