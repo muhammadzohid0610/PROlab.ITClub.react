@@ -37,8 +37,44 @@ const Header: React.FC<darkMode> = ({
         <div className="px-[15px]  flex justify-between items-center">
           <Logo />
 
+<<<<<<< HEAD
           <div className="flex items-center gap-[30px]  text-[26px]">
             <Set_Log modal={modal} setModal={setModal} />
+=======
+        <div className="flex items-center gap-[30px]  text-[26px]">
+          <Set_Log modal={modal} setModal={setModal} />
+        </div>
+      </div>
+
+      <div
+        onClick={() => setModal(!modal)}
+        className={` ${
+          modal ? "flex" : "hidden"
+        } w-[100vw]   h-[100vh] fixed top-0 z-[90] left-0 bg-[--succesBg] backdrop-blur-[4px]  justify-center items-center`}
+      >
+        <div
+          className="w-[300px] xl:w-[500px] h-[500px] bg-[--white] rounded-[10px] flex justify-start px-[20px] py-[30px] flex-col  text-start items-start"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className="gap-[10px] flex text-start items-start text-[22px] flex-col">
+            <h1 className="text-[--black] mt-[0px] text-[28px]">Settings:</h1>
+            <div className="flex xl:flex-row  items-center gap-[6px] mt-[20px] text-start">
+              <div>
+                {dark ? (
+                  <MdLightMode
+                    onClick={() => setDark(!dark)}
+                    className={`cursor-pointer text-[40px] xl:text-[80px] xl:border-r-2 xl:border-r-[--black] pr-[5px] mr-[2px]  text-[--black]`}
+                  />
+                ) : (
+                  <MdDarkMode
+                    onClick={() => setDark(!dark)}
+                    className={`cursor-pointer text-[40px] xl:text-[80px] xl:border-r-2 xl:border-r-[--black] pr-[5px] mr-[2px]  text-[--black]`}
+                  />
+                )}
+              </div>
+              <Translate />
+            </div>
+>>>>>>> b7cc6e182c6367c1f6255eeea0fc3216b4abb007
           </div>
         </div>
 
