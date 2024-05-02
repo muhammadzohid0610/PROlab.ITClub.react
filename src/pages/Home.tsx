@@ -8,7 +8,7 @@ import { fadeIn } from "./../components/variants";
 const Home: FC = () => {
   return (
     <div className="container mx-auto h-[100vh] flex justify-center">
-      <div className="navbar overflow-hidden  w-full my-auto   flex flex-col xl:flex-row border-2  border-[--black] rounded-[10px] justify-between pl-[15px] xl:h-[450px]">
+      <div className="navbar overflow-hidden  w-full my-auto  flex flex-col xl:flex-row border-2  border-[--black] rounded-[10px] justify-between pl-[15px] xl:h-[450px]">
         <div className="text-center xl:text-start xl:pt-[140px]  py-[50px] px-[15px] text-[--black]">
           <motion.h1
             variants={fadeIn("right", 0.3)}
@@ -18,7 +18,7 @@ const Home: FC = () => {
           >
             <span className="text-[22px] font-[700]  text-[--succes] xl:text-[38px]">
               PROlab.ITClub
-            </span>{" "}
+            </span>
             <span className="xl:text-[30px] text-[20px] font-[600]">
               - Programming courses
             </span>

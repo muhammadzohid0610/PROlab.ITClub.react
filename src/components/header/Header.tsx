@@ -53,7 +53,7 @@ const Header: React.FC<darkMode> = ({
         >
           <div className="gap-[10px] flex text-start items-start text-[22px] flex-col">
             <h1 className="text-[--black] mt-[0px] text-[28px]">Settings:</h1>
-            <div className="flex  xl:flex-row  items-center gap-[12px] mt-[20px] text-start">
+            <div className="flex xl:flex-row  items-center gap-[6px] mt-[20px] text-start">
               <div>
                 {dark ? (
                   <MdLightMode
@@ -67,7 +67,6 @@ const Header: React.FC<darkMode> = ({
                   />
                 )}
               </div>
-
               <Translate />
             </div>
           </div>
